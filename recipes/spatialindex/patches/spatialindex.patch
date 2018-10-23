@@ -1,0 +1,11 @@
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -385,7 +385,7 @@
+ top_build_prefix = @top_build_prefix@
+ top_builddir = @top_builddir@
+ top_srcdir = @top_srcdir@
+-SUBDIRS = src . test include
++SUBDIRS = src . include
+ ACLOCAL_AMFLAGS = -I m4
+ lib_LTLIBRARIES = libspatialindex.la libspatialindex_c.la
+ libspatialindex_la_SOURCES = 

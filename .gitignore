@@ -1,0 +1,13 @@
+build
+dist
+stage
+.packages
+src/apk/default.properties
+src/apk/local.properties
+.deps
+.optional-deps
+config.conf
+layouts/default
+ant.properties
+*.idea
+*.DS_Store
